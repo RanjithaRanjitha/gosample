@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RanjithaRanjitha_gosample_1708408500154-push-trigger-input-set
+  identifier: Build_RanjithaRanjitha_gosample_1708408500154pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIOne
+  pipeline:
+    identifier: Build_RanjithaRanjitha_gosample_1708408500154
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
