@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RanjithaRanjitha_gosample_1708408500154-pr-trigger-input-set
+  identifier: Build_RanjithaRanjitha_gosample_1708408500154prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIOne
+  pipeline:
+    identifier: Build_RanjithaRanjitha_gosample_1708408500154
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
